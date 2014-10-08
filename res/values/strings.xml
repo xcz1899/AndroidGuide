@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidGuide</string>
+    <string name="splashactivity">SplashActivity</string>
+    <string name="viewpageractivity">viewpageractivity</string>
+    <string name="viewflipperactivity">viewflipperactivity</string>
+</resources>

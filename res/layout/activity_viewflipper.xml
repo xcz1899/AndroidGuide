@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/vf_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/iv_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff2233"
+            android:gravity="center"
+            android:text="viewflipper1"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/iv_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#11ff33"
+            android:gravity="center"
+            android:text="viewflipper2"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/iv_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1122ff"
+            android:gravity="center"
+            android:text="viewflipper3"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+    </ViewFlipper>
+
+</LinearLayout>
