@@ -34,7 +34,7 @@
             android:label="@string/app_name" >
         </activity>
          <activity
-            android:name="com.xcz1899.androidguide.scoller.ScollerViewActivity"
+            android:name="com.xcz1899.androidguide.scrollview.ScollerViewActivity"
             android:label="@string/app_name" >
         </activity>
     </application>

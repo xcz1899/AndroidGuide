@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <com.xcz1899.androidguide.scoller.MyScrollView
+    <com.xcz1899.androidguide.scrollview.MyScrollView
         android:id="@+id/sv_main"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
@@ -105,6 +105,5 @@
                 android:layout_marginTop="35dp"
                 android:src="@drawable/feature_jobs_txt" />
         </LinearLayout>
-    </com.xcz1899.androidguide.scoller.MyScrollView>
-
+    </com.xcz1899.androidguide.scrollview.MyScrollView>
 </RelativeLayout>

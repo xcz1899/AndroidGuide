@@ -1,6 +1,6 @@
 package com.xcz1899.androidguide;
 
-import com.xcz1899.androidguide.scoller.ScollerViewActivity;
+import com.xcz1899.androidguide.scrollview.ScollerViewActivity;
 import com.xcz1899.androidguide.splash.SplashActivity;
 import com.xcz1899.androidguide.viewflipper.ViewFlipperActivity;
 import com.xcz1899.androidguide.viewpager.ViewPagerActivity;
