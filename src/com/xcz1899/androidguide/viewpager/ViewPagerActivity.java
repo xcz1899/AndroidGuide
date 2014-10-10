@@ -11,11 +11,12 @@ import android.support.v4.view.ViewPager;
 
 import com.xcz1899.androidguide.R;
 
-public class ViewPagerActivity  extends FragmentActivity {
+public class ViewPagerActivity extends FragmentActivity {
     private ViewPager mVPActivity;
     private Fragment1 mFragment1;
     private Fragment2 mFragment2;
     private Fragment3 mFragment3;
+    private Fragment4 mFragment4;
     private List<Fragment> mListFragment = new ArrayList<Fragment>();
     private PagerAdapter mPgAdapter;
 
@@ -31,9 +32,11 @@ public class ViewPagerActivity  extends FragmentActivity {
 	mFragment1 = new Fragment1();
 	mFragment2 = new Fragment2();
 	mFragment3 = new Fragment3();
+	mFragment4 = new Fragment4();
 	mListFragment.add(mFragment1);
 	mListFragment.add(mFragment2);
 	mListFragment.add(mFragment3);
+	mListFragment.add(mFragment4);
 	mPgAdapter = new ViewPagerAdapter(getSupportFragmentManager(), mListFragment);
 	mVPActivity.setAdapter(mPgAdapter);
     }

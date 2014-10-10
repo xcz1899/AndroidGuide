@@ -3,27 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ViewPagerActivity"
-    android:background="#66CCFF" >
-	<TextView 
-	    android:id="@+id/logo_text"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_centerHorizontal="true"
-	    android:layout_alignParentBottom="true"
-	    android:layout_marginBottom="8dip"
-	    android:text="@string/splashactivity"
-	    android:textColor="#FFFFFF"
-	    android:textSize="16sp"
-	    />
+    android:background="@drawable/guide" >
 
-	<TextView
-	    android:id="@+id/logo_name"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_centerInParent="true"
-	    android:drawableTop="@drawable/ic_launcher"
-	    android:text="@string/app_name"
-	    android:textColor="#FFFFFF"
-	    android:textSize="20sp" />
 
 </RelativeLayout>

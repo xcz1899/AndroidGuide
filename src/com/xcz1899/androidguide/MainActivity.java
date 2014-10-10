@@ -1,5 +1,6 @@
 package com.xcz1899.androidguide;
 
+import com.xcz1899.androidguide.scoller.ScollerViewActivity;
 import com.xcz1899.androidguide.splash.SplashActivity;
 import com.xcz1899.androidguide.viewflipper.ViewFlipperActivity;
 import com.xcz1899.androidguide.viewpager.ViewPagerActivity;
@@ -15,24 +16,27 @@ public class MainActivity extends Activity implements OnClickListener {
     private Button mBtnSplashActivity;
     private Button mBtnViewPagerActivity;
     private Button mBtnViewFlipperActivity;
+    private Button mBtnScollerViewActivity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 	super.onCreate(savedInstanceState);
 	setContentView(R.layout.activity_main);
 	initView();
-	setOnClick();
+	setOnClickListener();
     }
 
     private void initView() {
 	mBtnSplashActivity = (Button) findViewById(R.id.btn_splashactivity);
 	mBtnViewPagerActivity= (Button) findViewById(R.id.btn_viewpageractivity);
 	mBtnViewFlipperActivity= (Button) findViewById(R.id.btn_viewflipperactivity);
+	mBtnScollerViewActivity= (Button) findViewById(R.id.btn_scollerviewactivity);
     }
 
-    private void setOnClick() {
+    private void setOnClickListener() {
 	mBtnSplashActivity.setOnClickListener(this);
 	mBtnViewPagerActivity.setOnClickListener(this);
 	mBtnViewFlipperActivity.setOnClickListener(this);
+	mBtnScollerViewActivity.setOnClickListener(this);
     }
 
     @Override
@@ -52,6 +56,11 @@ public class MainActivity extends Activity implements OnClickListener {
 	    Intent intent2 = new Intent();
 	    intent2.setClass(this, ViewFlipperActivity.class);
 	    startActivity(intent2);
+	    break;
+	case R.id.btn_scollerviewactivity:
+	    Intent intent3 = new Intent();
+	    intent3.setClass(this, ScollerViewActivity.class);
+	    startActivity(intent3);
 	    break;
 	}
     }
